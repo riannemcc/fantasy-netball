@@ -1,0 +1,16 @@
+.logInForm {
+    border-radius: 8px;
+    width: 8rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    margin-right: 1rem;
+    margin-top: 0.4rem;
+}
+
+.submitButton {
+    width: 8rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    margin-right: 1rem;
+    margin-top: 0.4rem;
+}
