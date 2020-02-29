@@ -1,34 +1,24 @@
-import React from 'react';
-import './Home.css';
+import React from 'react'
+import './Rules.css'
 
 
 function Rules() {
     return (
-        <>
-            <p>
-                * Goals +2
-                * Misses -4
-                * Goal Assists +3
-                * Feeds +1
-                * Interceptions +10
-                * Deflections +8
-                * Defensive Rebounds +10
-                * Offensive Rebounds +4
-                * Turnovers -1
-                * Bad Pass -6
-                * Bad Hands -4
-                * Centre Pass Reception +0.5
-                * Contact -0.5
-                * Obstruction -0.5
-                * Pickups +10
-                * Goal Blocked -4
-                * Block +6
-                * Gain +2
+        <div className="rules">
+            <ul className="rulesList">
+                <li>Goals +2</li>
+                <li>Misses -4</li>
+                <li>Interceptions +10</li>
+                <li>Turnovers -1</li>
+                <li>Centre Pass Reception +0.5</li>
+                <li>Contact -0.5</li>
+                <li>Obstruction -0.5</li>
+                <li>Pickups +10</li>
+            </ul>
                 * Captains will earn 2x the points for the week.
-                Vice Captains will earn 1.5x ßßthe points for the week.
-            </p>
-        </>
-    );
+                Vice Captains will earn 1.5x the points for the week.
+        </div>
+    )
 }
 
 export default Rules;

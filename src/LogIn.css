@@ -1,15 +1,25 @@
+.logInContainer {
+    display: inline-block;
+}
+
 .logInForm {
     border-radius: 8px;
     width: 8rem;
-    margin-bottom: 1rem;
-    padding: 0.4rem;
-    margin-right: 1rem;
-    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.logInInput {
+    padding: 5px;
+    margin: 0.75rem;
+    border-radius: 8px;
+    width: 8rem;
 }
 
 .submitButton {
     width: 8rem;
-    margin-bottom: 1rem;
+    margin: 1r0.75remem;
     padding: 0.4rem;
     margin-right: 1rem;
     margin-top: 0.4rem;
