@@ -1,0 +1,36 @@
+.teamButtons {
+  display: inline-flex;
+  margin-bottom: 3.5rem;
+  width: 90%;
+}
+
+.teamButton {
+  width: 3rem;
+  border: none;
+  border-radius: 4px;
+  background-color: aquamarine;
+  width: 7rem;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  margin-right: 1rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: pink;
+    color: black;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

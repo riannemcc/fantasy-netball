@@ -3,8 +3,6 @@ import Leaderboard from './Leaderboard';
 import './Home.css';
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 
@@ -12,7 +10,7 @@ import {
 function Home() {
     const isSignedIn = true
     return (
-        <>
+        <div className="container">
             <h1>Fantasy Netball</h1>
             <h2> Vitality Netball Superleague</h2>
             {isSignedIn ? (
@@ -23,7 +21,7 @@ function Home() {
                         <Link to="/log-in" className="button">Log In</Link>
                     </>
                 )}
-        </>
+        </div>
     );
 }
 

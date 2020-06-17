@@ -22,8 +22,77 @@ img {
   display: inline-flex;
 }
 
-.playerDropdown__shooters {
+.playerDropdown__shooters_one {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 5rem;
+}
+
+.playerDropdown__shooters_two {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  width: 5rem;
+}
+
+.playerDropdown__centreCourt_one {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 5rem;
+}
+
+.playerDropdown__centreCourt_two {
+  position: absolute;
+  top: 48%;
+  right: 37%;
+  width: 5rem;
+}
+
+.playerDropdown__centreCourt_three {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  width: 5rem;
+}
+
+.playerDropdown__defence_one {
+  position: absolute;
+  top: 65%;
+  right: 5%;
+  width: 5rem;
+}
+
+.playerDropdown__defence_two {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  width: 5rem;
+}
+
+.playerDropdown__bench_one {
   position: absolute;
   top: 15%;
-  left: 10%
+  left: 10%;
+  width: 5rem;
+}
+
+.playerDropdown__bench_two {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 5rem;
+}
+
+.playerDropdown__bench_three {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 5rem;
+}
+
+.teamSubmit {
+  padding: 1rem;
+  margin: 1rem;
 }

@@ -5,8 +5,9 @@ import LogOutButton from './LogOut'
 import LogIn from './LogIn'
 import Account from './Account'
 import Rules from './Rules'
-import Stats from './Stats'
+import { Stats } from './Stats'
 import TeamSelection from './TeamSelection'
+import ScoreInput from './Admin/ScoreInput'
 import './App.css'
 import {
   BrowserRouter as Router,
@@ -46,6 +47,9 @@ class App extends Component {
                 <Route path="/log-in" component={LogIn} />
                 <Route path="/account">
                   <Account />
+                </Route>
+                <Route path="/score-input">
+                  <ScoreInput />
                 </Route>
                 <Route path="/rules">
                   <Rules />
