@@ -2,7 +2,6 @@ import React from 'react';
 import Leaderboard from './Leaderboard';
 import './Home.css';
 import {
-    BrowserRouter as Router,
     Link
 } from "react-router-dom";
 
