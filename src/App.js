@@ -29,6 +29,7 @@ class App extends Component {
                         <button className="dropbtn">Menu</button>
                         <div className="dropdown-content">
                           <Link to="/">Home</Link>
+                          <Link to="/team-selection">Team selection</Link>
                           <Link to="/rules">Rules</Link>
                           <Link to="/stats">Stats</Link>
                           <AuthUserContext.Consumer>
