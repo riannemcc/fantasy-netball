@@ -23,20 +23,24 @@ class Firebase {
     this.db = app.firestore()
   }
 
-    // *** Auth API ***
+  // *** Auth API ***
   doCreateUserWithEmailAndPassword = (email, password) => this.auth.createUserWithEmailAndPassword(email, password)
 
   doLogInWithEmailAndPassword = (email, password) => this.auth.signInWithEmailAndPassword(email, password)
-  
+
   doLogOut = () => this.auth.signOut()
-  
-  
+
   doPasswordUpdate = password => this.auth.currentUser.updatePassword(password)
-  
+
   // *** User API ***
   user = uid => this.db.collection('users').doc(uid);
   users = () => this.db.collection('users').get();
-  
+  get currentUserId() {
+    return this.auth.currentUser && this.auth.currentUser.uid
+  }
+  getUserData = (uid) => this.user(uid).get()
+  updateUserData = (uid, data) => this.db.collection('users').doc(uid).update(data)
+
   players = () => this.db.collection('players').orderBy('name').get();
   playersByPositions = positions => this.db.collection('players').where('position', 'array-contains-any', positions).get();
 }

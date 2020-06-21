@@ -1,0 +1,20 @@
+{
+    "users": {},
+    "players": {
+        "1234": [
+            { 
+                "name": "Fran",
+                "position": "Center",
+                "teamId": "123456"
+            }
+        ]
+    },
+    "teams": {
+        "1234": [
+            {
+                "id": "123456",
+                "name": "Team1"
+            }
+        ]
+    }
+}

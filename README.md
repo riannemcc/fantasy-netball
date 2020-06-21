@@ -1,11 +1,8 @@
-To do:
-- Decide on design for team selection
-- Create new database for players selections that connects to users table
-- Allow user's selection to be added to database 
-- Add log in/log out button to nav bar
-- Divide players by team on drop down menu?
-- Allow users to type in players name and do auto select on drop down?
-- use react-table to create table component for stats?
-- add stats to database using admin page ?
-- allow user to filter stats by team using buttons at top
-- use react=table to create table component for leaderboard 
+FANTASTY NETBALL
+
+An app to pick a fantasy team and track progress for the UK netball superleague. 
+
+- React
+- Firebase
+
+

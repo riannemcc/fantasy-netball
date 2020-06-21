@@ -18,6 +18,11 @@ img {
   width: 80%;
 }
 
+.teamnameInput {
+  margin: 1rem;
+  border-radius: 4px;
+}
+
 .playerDropdown {
   display: inline-flex;
 }
@@ -27,6 +32,7 @@ img {
   top: 10%;
   left: 35%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__shooters_two {
@@ -34,6 +40,7 @@ img {
   top: 30%;
   left: 5%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__centreCourt_one {
@@ -41,6 +48,7 @@ img {
   top: 30%;
   right: 5%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__centreCourt_two {
@@ -48,6 +56,7 @@ img {
   top: 48%;
   right: 37%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__centreCourt_three {
@@ -55,6 +64,7 @@ img {
   top: 65%;
   left: 5%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__defence_one {
@@ -62,6 +72,7 @@ img {
   top: 65%;
   right: 5%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__defence_two {
@@ -69,30 +80,35 @@ img {
   bottom: 10%;
   left: 35%;
   width: 5rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__bench_one {
   position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 5rem;
+  top: 40%;
+  right: -37%;
+  width: 8rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__bench_two {
   position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 5rem;
+  top: 46%;
+  right: -37%;
+  width: 8rem;
+  border-radius: 4px;
 }
 
 .playerDropdown__bench_three {
   position: absolute;
-  top: 15%;
-  left: 10%;
-  width: 5rem;
+  top: 52%;
+  right: -37%;
+  width: 8rem;
+  border-radius: 4px;
 }
 
 .teamSubmit {
-  padding: 1rem;
+  padding: .75rem;
   margin: 1rem;
+  border-radius: 4px;
 }
